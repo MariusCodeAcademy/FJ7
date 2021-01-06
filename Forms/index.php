@@ -1,4 +1,5 @@
 <?php
+session_start();
 require('./process.php');
 
 ?>
@@ -13,6 +14,7 @@ require('./process.php');
 </head>
 
 <body>
+    <?php require('./inc/nav.php'); ?>
     <div class="container">
         <h1>Form validation</h1>
 
